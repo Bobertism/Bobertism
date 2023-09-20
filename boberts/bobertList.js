@@ -19,9 +19,9 @@ const BOBERT_LIST = {
         "name" : "Bobert Cool",
         "description" : "That guy everyone wants to be."
     },
-    "bobertHack" : {
-        "source" : "bobertHack.svg",
-        "name" : "Bobert Hack",
+    "hackerBobert" : {
+        "source" : "hackerBobert.png",
+        "name" : "Hacker Bobert",
         "description" : "Whats an IP adress? Mines 127.0.0.1!"
     },
     "bobertTroll" : {
