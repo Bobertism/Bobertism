@@ -1,3 +1,7 @@
+body {
+    background: rgb(49, 51, 56);
+}
+
 #bobert-gallery {
     display: flex;
     flex-flow: row wrap;
@@ -10,7 +14,19 @@
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 3px 5px lightgrey;
+    border: 2px solid #222;
+    box-shadow: 0 3px 3px #222;
+    transition: 200ms;
+}
+
+.bobert-item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.bobert-item:active {
+    transform: scale(0.9);
+    background: rgba(255, 50, 50, 0.1);
 }
 
 .bobert-image {

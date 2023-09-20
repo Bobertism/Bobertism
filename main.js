@@ -8,6 +8,7 @@ async function copySmallBobert(){
     await navigator.clipboard.write([
         new ClipboardItem({ 'image/png' : blob })
     ]);
+    alert(BOBERT_LIST[this.id].name + " has been copied to clipboard!");
 }
 
 for(var i = 0; i < bobertNames.length; i++) {
