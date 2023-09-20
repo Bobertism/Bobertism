@@ -1,0 +1,18 @@
+#bobert-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.bobert-item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px lightgrey;
+}
+
+.bobert-image {
+    width: 10vw;
+}
