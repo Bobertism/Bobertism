@@ -44,4 +44,19 @@ const BOBERT_LIST = {
         "name" : "Wide Bobert",
         "description" : "Bro what happend to you?"
     },
+    "poggert" : {
+        "source" : "poggert.svg",
+        "name" : "Poggert",
+        "description" : "POGGERS!!!"
+    },
+    "chadbert" : {
+        "source" : "chadbert.svg",
+        "name" : "Chadbert",
+        "description" : "The one and only."
+    },
+    "bobertCringe" : {
+        "source" : "bobertCringe.svg",
+        "name" : "Bobert Cringe",
+        "description" : "Eeek too scary."
+    },
 };
