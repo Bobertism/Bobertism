@@ -59,4 +59,9 @@ const BOBERT_LIST = {
         "name" : "Bobert Cringe",
         "description" : "Eeek too scary."
     },
+    "bobertParty" : {
+        "source" : "bobertParty.svg",
+        "name" : "Bobert Party",
+        "description" : "Time to Celebrate!"
+    },
 };
