@@ -64,4 +64,9 @@ const BOBERT_LIST = {
         "name" : "Bobert Party",
         "description" : "Time to Celebrate!"
     },
+    "bobertGasp" : {
+        "source" : "bobertGasp.svg",
+        "name" : "Bobert Gasp",
+        "description" : "What did you just say!?"
+    },
 };
