@@ -1,18 +1,28 @@
 body {
+    margin: 0;
+    padding: 0;
     background: rgb(49, 51, 56);
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 #bobert-gallery {
-    display: flex;
-    flex-flow: row wrap;
-    width: 50vw;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.2rem;
+    padding: 1.2rem;
+    min-width: 50vw;
+    max-width: 1440px;
+    margin-inline: auto;
     justify-content: center;
 }
 
 .bobert-item {
-    margin: 10px;
     padding: 10px;
+    background-color: #00000022;
     border-radius: 10px;
     border: 2px solid #222;
     box-shadow: 0 3px 3px #222;
@@ -27,8 +37,4 @@ body {
 .bobert-item:active {
     transform: scale(0.9);
     background: rgba(255, 50, 50, 0.1);
-}
-
-.bobert-image {
-    width: 10vw;
 }
